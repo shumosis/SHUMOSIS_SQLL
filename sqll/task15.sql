@@ -40,6 +40,8 @@ insert into  Commonwealth_games values(15,'weightlifting',18,28,14,'micheal',10,
 'korea','somesh','chiana','ukrain','india','single');
 
 
+select * from  Commonwealth_games;
+
 SELECT RPAD('maha',10,'A');
 SELECT RPAD('maha',10,'A');
 
@@ -88,3 +90,4 @@ select gametype from Commonwealth_games order by gametype  ;
 select panalytes_points from Commonwealth_games order by panalty_points  ;
 
 
+select * from Commonwealth_games;
