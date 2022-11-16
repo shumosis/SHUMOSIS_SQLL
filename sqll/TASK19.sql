@@ -29,6 +29,7 @@ insert into  p_fit_details values( 7,'ashwin',33,'mudhole','rane','drawid','koha
 insert into  p_fit_details values( 8,'chahal',34,'garve','takwade','drawid','gambhir',89 ,'fit','kunda',0); 
 insert into  p_fit_details values( 9,'bhuvaneshwar',36,'rathod','kazi','shastri','rane',85 ,'fit','sindhu',2);  
 
+select * from  p_fit_details ;
 create table p_diet(id int,p_name varchar(30),weight int , height int,p_heathpoints int,running int,meat int
 ,egg int,chapati int ,rice int,salad int);
 insert into p_diet values(1,'virat',73,6,87,20,100,3,2,50,100);
@@ -41,6 +42,7 @@ insert into p_diet values(7,'ashwin',85,6, 84,20,100,3,2,50,100);
 insert into p_diet values(8,'chahal',55,5, 89,10,120,4,2,60,120);
 insert into p_diet values(9,'bhuvneshwar',60,6,85,20,100,4,2,60,100);
 
+select * from p_diet ;
 
 select t20team.p_age,p_fit_details.p_age from t20team right join p_fit_details on 
 t20team.id = p_fit_details.id;
